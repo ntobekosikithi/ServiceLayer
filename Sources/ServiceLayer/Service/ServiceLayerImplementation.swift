@@ -15,6 +15,7 @@ public enum HTTPMethod: String {
 
 public class ServiceLayerImplementation: ServiceLayer {
     
+    public init () {}
     public func makeRequest<T>(url: String,
                                method: HTTPMethod = .get,
                                headers: [String : String]? = nil,
